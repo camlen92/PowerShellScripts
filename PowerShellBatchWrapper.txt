@@ -1,0 +1,6 @@
+# 2>NUL & @CLS & @PUSHD "%~dp0" & @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -nol -nop -ep 4 "gc -ra '%~f0'|iex" & @POPD & @EXIT /B
+
+#requires -Version 3
+
+# script contents
+'Hello, World!'
